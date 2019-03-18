@@ -35,7 +35,7 @@ SUITE = containers.TaggedTasks()
 
 def get_model_and_assets():
   """Returns a tuple containing the model XML string and a dict of assets."""
-  return common.read_model('pendubot.xml'), common.ASSETS
+  return common.read_model('double_pendulum.xml'), common.ASSETS
 
 
 @SUITE.add('benchmarking')

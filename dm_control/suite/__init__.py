@@ -43,6 +43,7 @@ from dm_control.suite import stacker
 from dm_control.suite import swimmer
 from dm_control.suite import walker
 from dm_control.suite import pendubot
+from dm_control.suite import double_pendulum
 
 # Find all domains imported.
 _DOMAINS = {name: module for name, module in locals().items()
