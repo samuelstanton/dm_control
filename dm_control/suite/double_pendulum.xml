@@ -40,7 +40,7 @@ Based on Spong's model [1] with the parameters found in [2].
   </worldbody>
 
    <actuator>
-    <motor name="shoulder" joint="shoulder" gear="1" ctrllimited="true" ctrlrange="-2. 2."/>
+    <motor name="shoulder" joint="shoulder" gear="1" forcelimited="true" forcerange="-2. 2."/>
   </actuator>
   <actuator>
     <motor name="elbow" joint="elbow" gear="1" forcelimited="true" forcerange="-2. 2."/>
