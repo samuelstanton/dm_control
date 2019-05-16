@@ -61,7 +61,7 @@ def swingup_sparse(time_limit=_DEFAULT_TIME_LIMIT, random=None,
 
 
 class Physics(mujoco.Physics):
-  """Physics simulation with additional features for the Acrobot domain."""
+  """Physics simulation with additional features for the Pendubot domain."""
 
   def horizontal(self):
     """Returns horizontal (x) component of body frame z-axes."""
